@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+$val = getopt(null, ["name:"]);
+
+        $name = $val["name"];
+
+        if (!empty($name)) {
+            exec ('composer create-project --prefer-dist aratta-studios/aratta-laravel-boilerplate '.$name.' && cd '.$name.' && npm install && php artisan jwt:secret');
+            print_r($name." project is created");
+        } else {
+            print_r("Please provide a name for your project");
+        }
+
+
