@@ -9,5 +9,5 @@
     }
 
 
-    $app = new app\ArattaLaravel();
+    $app = new App\ArattaLaravel();
     $app->create($argv[1]);
