@@ -10,7 +10,5 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {},
-    "bin": [
-        "aratta-laravel"
-    ]
+    "bin":["bin/aratta-laravel"]
 }
