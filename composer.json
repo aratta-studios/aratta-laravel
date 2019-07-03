@@ -1,0 +1,13 @@
+{
+    "name": "aratta-studios/aratta-laravel",
+    "description": "An installer for aratta-laravel-boilerplate",
+    "authors": [
+        {
+            "name": "Sajjad Asadi",
+            "email": "lvlr.xaus@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {}
+}
